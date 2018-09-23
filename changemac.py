@@ -64,7 +64,7 @@ if opt==1:
  print("\nNow Your Current mac address = "+cr)
 
 
-if opt==2:
+elif opt==2:
  genmac=retrandmac(randmac())
  print("Please wait generating new mac address.....................")
  cret('nmcli radio wifi off')
