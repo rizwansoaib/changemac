@@ -1,7 +1,7 @@
 # change MAC addresss in linux :
 A Simple Python script to change mac address of linux 
 # Usage
-1. public wifi get unlimited attempt at full high speed(airport,indian railway station) via change you mac address
+1. public wifi get unlimited attempt at full high speed(airport,indian railway station) via change your mac address
 2. bypass mac filtering
 3. some places required to register mac address to access internet 
 # requirements
