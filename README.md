@@ -7,6 +7,8 @@ A Simple Python script to change mac address of linux
 # Requirements
 should be installed net-tools
 install with these step from terminal
+
+
 sudo apt-get install net-tools
 # How to run this script:
 open terminal go to downloaded directory and run : python changemac.py
