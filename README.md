@@ -11,7 +11,8 @@ install with these step from terminal
 
 sudo apt-get install net-tools
 # How to run this script:
-open terminal go to downloaded directory and run : python changemac.py
+open terminal go to downloaded directory and run : python3 
+changemac.py
 # Features:
 1. Enter MAC address to change your mac address
 2. Randomly generate automatic MAC address
