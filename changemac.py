@@ -33,10 +33,12 @@ print("                                  ######   #     #    #  #  # #     # #  
 print("                                  #   #    #    #     #  #  # ####### #   # #")
 print("                                  #    #   #   #      #  #  # #     # #    ##")
 print("                                  #     # ### #######  ## ##  #     # #     #")
-
+#finding wireless interface name that should start with wl e.g.-wlan0,wlp3s0
 infname=cret('ifconfig -a  | egrep "^[wl-wl]+" | sed "s/: .*//" | grep -v "lo"')
+#INTERFACE NAME 6 character so return 6 last character
 infname=infname[:6]
 infname=infname.decode('utf-8')
+#GETTING MAC Address from /sys/class/net/wlan0/address directory
 cmdgetmac=('cat /sys/class/net/'+infname+'/address')
 crrntmac=cret("cat /sys/class/net/"+infname+"/address")
 crrntmac=crrntmac.decode('utf-8')
@@ -52,11 +54,15 @@ if opt==1:
  print("Please wait changing  mac address..................")
  
  
-    
+ #first turn off wifi    
  cret('nmcli radio wifi off')
+
  changemaccmd="sudo ip link set dev "+infname+" address "+newmac
+#executing command with new mac address
  cret(changemaccmd)
+#turning on wifi
  cret('nmcli radio wifi on')
+#GETTING MAC Address from /sys/class/net/wlan0/address directory
  cr=cret("cat /sys/class/net/"+infname+"/address")
  cr=cr.decode('utf-8')
 
