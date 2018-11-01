@@ -1,4 +1,4 @@
-# Change MAC addresss in linux :
+# Change MAC addresss in linux ubuntu 18.04 :
 A Simple Python script to change mac address of linux 
 # Usage
 1. public wifi get unlimited attempt at full high speed(airport,indian railway station) via change your mac address
