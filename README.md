@@ -1,7 +1,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
-- [Python High Star repo](https://github.com/geekcomputers/Python/blob/master/changemac.py) -Commit in High Star Python Repo).
+- [Python most Starred repo](https://github.com/geekcomputers/Python/blob/master/changemac.py) -Commit in most Starred Python Repo
 
 
 
