@@ -1,4 +1,5 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![LINUX](https://img.shields.io/badge/Supported%20OS-Linux-green.svg)](https://www.linux.org/pages/download/)
 [![star this repo](http://githubbadges.com/star.svg?user=rizwansoaib&repo=changemac)](https://github.com/rizwansoaib/changemac)
 [![fork this repo](http://githubbadges.com/fork.svg?user=rizwansoaib&repo=changemac)](http://github.com/rizwansoaib/changemac/fork)
 
