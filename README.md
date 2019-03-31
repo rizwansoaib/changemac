@@ -1,4 +1,6 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![star this repo](http://githubbadges.com/star.svg?user=rizwansoaib&repo=changemac)]()
+[![fork this repo](http://githubbadges.com/star.svg?user=rizwansoaib&repo=changemac)](http://github.com/rizwansoaib/changemac/fork)
 
 # Added in Most Starred Repo 
 
